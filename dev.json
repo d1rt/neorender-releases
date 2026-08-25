@@ -4,11 +4,11 @@
   "min_updater_version": 1,
   "product": "neorender",
   "channel": "dev",
-  "version": "0.0.0-dev.ota.3",
+  "version": "0.0.0-dev.ota.2",
   "architecture": "armv7",
-  "package_url": "https://github.com/d1rt/neorender-releases/releases/download/v0.0.0-dev.ota.3/neorender-fw-0.0.0-dev.ota.3-armv7.tar.gz",
-  "sha256": "71f6d69d1145c4ad59bb6322fdcac76be6e5914e996005974e9f2412422e06ba",
-  "signature": "TGPGyqnFK7IfNwJeFiN0/0PJh4OdWQgjAA78s6Cz5JwppQeGQbyHLMEIsr3F2gk/fIFiAIWp3uoVR66zrdr0Dg==",
-  "size": 3225572,
-  "release_notes": "Контролируемый QA release для доказательства automatic rollback: runtime исправен, но намеренно сообщает version, не совпадающую с manifest, поэтому post-activation health/version check должен вернуть предыдущую ota.2.\n"
+  "package_url": "https://github.com/d1rt/neorender-releases/releases/download/v0.0.0-dev.ota.2/neorender-fw-0.0.0-dev.ota.2-armv7.tar.gz",
+  "sha256": "d6c14329554ff02d75129ba12c230f96d1676c8b05dea58e34580f9c8f9911fc",
+  "signature": "uLhDY12Jubsv7DDYpjulE++Khs/U4ddLka5NG4tYhnewHnMqaNmXMJ/Vv9g5ehCejtNZctWTUV+YMMP/TBEYDQ==",
+  "size": 3225575,
+  "release_notes": "Первый production-like Dev release для проверки подписанного OTA, versioned runtime, restart, persistence и recovery на тестовом Neorender.\n"
 }
