@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "updater_schema": 1,
+  "min_updater_version": 1,
+  "product": "neorender",
+  "channel": "dev",
+  "version": "0.0.0-dev.ota.2",
+  "architecture": "armv7",
+  "package_url": "https://github.com/d1rt/neorender-releases/releases/download/v0.0.0-dev.ota.2/neorender-fw-0.0.0-dev.ota.2-armv7.tar.gz",
+  "sha256": "d6c14329554ff02d75129ba12c230f96d1676c8b05dea58e34580f9c8f9911fc",
+  "signature": "uLhDY12Jubsv7DDYpjulE++Khs/U4ddLka5NG4tYhnewHnMqaNmXMJ/Vv9g5ehCejtNZctWTUV+YMMP/TBEYDQ==",
+  "size": 3225575,
+  "release_notes": "Первый production-like Dev release для проверки подписанного OTA, versioned runtime, restart, persistence и recovery на тестовом Neorender.\n"
+}
