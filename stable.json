@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "updater_schema": 1,
+  "min_updater_version": 1,
+  "product": "neorender",
+  "channel": "stable",
+  "version": "1.0.0",
+  "architecture": "armv7",
+  "package_url": "https://github.com/d1rt/neorender-releases/releases/download/v1.0.0/neorender-fw-1.0.0-armv7.tar.gz",
+  "sha256": "516f798e7e8e6caa76ec44ead81dfd50d1d96ad86278a863ca24ad512828954f",
+  "signature": "tRmIsK8Ngl5rsgI9y+zWwkVQ0uNYLDLnGE1DYYxA3rabZB00hwFiyhHU3VRGs8Ho16ozPLIEnDzPhJdTxKE0Dw==",
+  "size": 3292673,
+  "release_notes": "# Neorender FW 1.0.0\n\nNeorender FW 1.0.0 is the first production release of the Neorender control interface.\n\n## What is included\n\n- UPnP playback with DoP over ALSA or Native DSD through MPD.\n- MPD Player with queue, library, playlists, search, seek, repeat and shuffle.\n- USB and NFS/SMB network music sources.\n- Built-in Radio Paradise stations and custom online streams.\n- Dark, Light and system appearance modes.\n- Fixed bit-perfect and optional software volume modes.\n- Standard and Organic MPD timing profiles.\n- LAN/Wi-Fi status and setup, device diagnostics and signed Stable OTA updates.\n\n## Opening Neorender\n\nOpen `http://neorender.local`. If the address is unavailable, use the device's LAN IP from the router. Some older Android devices do not support `.local` discovery; reserving the device IP and adding a router-local DNS record is an optional workaround.\n\n## Library safety\n\nMPD automatic library updates are disabled. The supported everyday model is a small current library with updates started explicitly by the user. The large Backlog is not scanned as part of installation, boot, source reconnect or release verification.\n\n## Update and recovery\n\nStable updates are accepted only when their product, ARMv7 architecture, compatibility fields, package checksum and Ed25519 signature pass verification. Firmware activation uses the versioned runtime layout and rolls back to the previous healthy release if the new backend does not start correctly. Persistent settings, source credentials, MPD state and the music library are outside the OTA payload.\n"
+}
