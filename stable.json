@@ -4,11 +4,11 @@
   "min_updater_version": 1,
   "product": "neorender",
   "channel": "stable",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "architecture": "armv7",
-  "package_url": "https://github.com/d1rt/neorender-releases/releases/download/v1.0.1/neorender-fw-1.0.1-armv7.tar.gz",
-  "sha256": "c8cb01699b348a85e5be34d6c79ea012a41cf1e7a25af7ee86fc23edd956b61b",
-  "signature": "PpS4gS3EU5Zol3CXkVbqclbgRlHwGoO1cCH6mLbasri/qyaFKBuQx7vZOYp02HxNpfe+cspE2No9lUxQMd4FAA==",
-  "size": 3293370,
-  "release_notes": "# Neorender FW 1.0.1\n\nNeorender FW 1.0.1 is a targeted Stable bugfix release.\n\n## Fixed\n\n- Support reports can be copied from the device web interface served over the local HTTP connection. The UI keeps the modern Clipboard API path and uses a browser-compatible fallback when that API is unavailable outside a secure context.\n\n## Scope\n\nThis release contains no renderer, network, tuning, storage, factory-image or automatic-update policy changes.\n"
+  "package_url": "https://github.com/d1rt/neorender-releases/releases/download/v1.0.2/neorender-fw-1.0.2-armv7.tar.gz",
+  "sha256": "8d2d28caab27bc5d7174091a6f5425c3c7ea0c97d97aade6a7fbcbdf367004dc",
+  "signature": "lRZTa324QULl7COt6K7Qa1KhbtRGW1n3MvruoreZ9Td30J9CRJgtxOy2XVppxvV9TvgAce1taURirISRrU0lCA==",
+  "size": 3296053,
+  "release_notes": "# Neorender FW 1.0.2\n\nNeorender FW 1.0.2 is a targeted Stable bugfix release.\n\n## Fixed\n\n- Saved NFS shares support arbitrary valid export paths and use neutral examples in the Sources form.\n- Sources refreshes its authoritative saved-share list immediately after a successful save.\n- Player connects the selected saved network share through the same backend flow as Sources and opens selection when no share is unambiguous.\n- Player timeline state is bound to the current track and ignores stale status responses during track changes.\n- MPD timing profiles include concise neutral explanations.\n- GMediaRenderer advertises `Neorender (no MPD)` instead of the legacy friendly name after restart.\n- Consumer-facing errors no longer append English backend diagnostics to localized messages.\n\n## Scope\n\nThis release does not change the OTA architecture, factory-image pipeline, MPD automatic-update policy, SoundLab, Wi-Fi priority implementation or renderer architecture.\n"
 }
